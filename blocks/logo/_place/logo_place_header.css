@@ -1,0 +1,7 @@
+.logo_place_header {
+    background-image: url(../../../images/logo_place_header.jpg);
+    order: -1;
+    position: absolute;
+    top: 20px;
+    left: 64px;
+}

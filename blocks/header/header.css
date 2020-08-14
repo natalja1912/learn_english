@@ -1,0 +1,21 @@
+@import url(./__title/header__title.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__link/header__link.css);
+@import url(./__main-illustration/header__main-illustration.css);
+@import url(./__cloud/header__cloud.css);
+
+
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+   
+    /* выше установили ограничения для секции */
+}

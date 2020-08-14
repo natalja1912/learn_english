@@ -1,0 +1,123 @@
+.header__cloud{
+        list-style-type: none;
+        display: block;
+        width: 140px;
+        height: 100px;
+        margin: 0 auto;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        z-index: 2;
+        
+        
+}
+
+.header__cloud:nth-of-type(1) {
+    animation: move_first 40s infinite linear;
+}
+
+.header__cloud:nth-of-type(2) {
+    top: 70px;
+    animation: move_second 36s infinite linear;
+}
+
+.header__cloud:nth-of-type(3) {
+    top: 120px;
+    animation: move_third 28s infinite linear;
+}
+
+@keyframes move_first {
+    0% {
+      transform: translateX(680px) scale(0);
+      opacity: 0;
+    }
+
+    10% {
+      transform: translateX(680px) scale(0.3);
+      opacity: 0.6;
+    }
+  
+    100% {
+        transform: translateX(100vw) scale(0.5);
+        opacity: 1;
+    }
+  }
+
+  @keyframes move_second {
+    0% {
+        transform: translateX(700px) scale(0);
+        opacity: 0;
+      }
+
+      10% {
+        transform: translateX(700px) scale(0.5);
+        opacity: 0.6;
+      }
+  
+      100% {
+          transform: translateX(100vw) scale(0.8);
+          opacity: 1;
+      }
+  }
+
+  @keyframes move_third {
+    0% {
+        transform: translateX(750px) scale(0);
+        opacity: 0;
+      }
+
+      10% {
+        transform: translateX(750px) scale(0.6);
+        opacity: 0.6;
+      }
+    
+    
+      100% {
+          transform: translateX(100vw) scale(1);
+          opacity: 1;
+      }
+  }
+
+.header__cloud li{
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 50%;
+  }
+  
+  .header__cloud li:nth-child(1) {
+    width: 75px;
+    height: 75px;
+    top: 25px;
+    left: 75px;
+    
+  }
+  
+  .header__cloud li:nth-child(2) {
+    width: 90px;
+    height: 80px;
+    top: 10px;
+    left: 25px;
+    
+  }
+  
+  .header__cloud li:nth-child(3) {
+    left: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .header__cloud li:nth-child(4) {
+    right: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .header__cloud li:nth-child(5) {
+    border-radius: 0;
+    left: 25px;
+    bottom: 0px;
+    width: 125px;
+    height: 50px;
+  }

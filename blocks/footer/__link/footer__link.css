@@ -1,0 +1,14 @@
+.footer__link {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__link:hover {
+  color: #2f80ed;
+  
+}
